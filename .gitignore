@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Data & Spark (NEVER commit data or spark warehouse to git)
+data/
+delta_tables/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+.DS_Store
